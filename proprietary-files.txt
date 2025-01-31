@@ -77,18 +77,6 @@ vendor/lib/rfsa/adsp/misound_res_headphone.bin
 vendor/lib/rfsa/adsp/misound_res_spk.bin
 vendor/lib/rfsa/adsp/misound_res_spk4ch.bin
 
-# Audio configs
-vendor/etc/audio/sku_taro/mixer_paths_overlay_dynamic.xml
-vendor/etc/audio/sku_taro/mixer_paths_overlay_static.xml
-vendor/etc/audio/sku_taro/mixer_paths_waipio_mtp.xml
-vendor/etc/audio/sku_taro/resourcemanager_waipio_mtp.xml
-vendor/etc/audio_cloud_control_white_list.xml
-vendor/etc/backend_conf.xml
-vendor/etc/card-defs.xml
-vendor/etc/kvh2xml.xml
-vendor/etc/microphone_characteristics.xml
-vendor/etc/usecaseKvManager.xml
-
 # Audio
 vendor/lib64/hw/audio.primary.taro.so;DISABLE_CHECKELF
 vendor/lib64/libagm.so
