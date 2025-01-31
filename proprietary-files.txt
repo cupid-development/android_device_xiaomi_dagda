@@ -9,8 +9,8 @@
 
 
 # ACDB
-vendor/etc/acdbdata/Mise_elus/Mise_elus_acdb_cal.acdb
-vendor/etc/acdbdata/Mise_elus/Mise_elus_workspaceFileXml.qwsp
+vendor/etc/acdbdata/Mise_elus/Mise_elus_acdb_cal.acdb:vendor/etc/acdbdata/waipio_mtp/Mise_elus_acdb_cal.acdb
+vendor/etc/acdbdata/Mise_elus/Mise_elus_workspaceFileXml.qwsp:vendor/etc/acdbdata/waipio_mtp/Mise_elus_workspaceFileXml.qwsp
 
 # ADSP modules
 vendor/lib/rfsa/adsp/bm2n00.bin
@@ -76,13 +76,6 @@ vendor/lib/rfsa/adsp/misound_karaokemix_res.bin
 vendor/lib/rfsa/adsp/misound_res_headphone.bin
 vendor/lib/rfsa/adsp/misound_res_spk.bin
 vendor/lib/rfsa/adsp/misound_res_spk4ch.bin
-
-# Audio
-vendor/lib64/hw/audio.primary.taro.so;DISABLE_CHECKELF
-vendor/lib64/libagm.so
-vendor/lib64/libar-pal.so;DISABLE_CHECKELF
-vendor/lib64/libcrussp.so;DISABLE_CHECKELF
-vendor/lib64/libkaraokepal.so
 
 # Audio firmware
 vendor/firmware/BH-cs35l41-dsp1-spk-cali.bin
